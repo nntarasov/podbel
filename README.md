@@ -21,3 +21,7 @@ Console.WriteLine(228);
 ```
 
 Можно ориентироваться на 1.txt,2.txt
+
+Чтобы получить похожий эффект
+[![ex](https://pp.vk.me/c837538/v837538485/15464/JiQFElorKEI.jpg)]()
+Обрамляем <code>Program</code>, <code>Main()</code>

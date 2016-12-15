@@ -1,0 +1,14 @@
+76541
+
+В результате выполнения следующего фрагмента программы:
+<code>
+int i = 7;
+while (i > 0) {
+	do
+		if (i > 3) Console.Write(i);
+	while(i-- > 2);
+		Console.Write(i);
+break;
+}
+</code>
+на экран будет выведено:
