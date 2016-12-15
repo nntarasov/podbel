@@ -23,7 +23,11 @@ Console.WriteLine(228);
 Можно ориентироваться на 1.txt,2.txt
 
 Чтобы получить похожий эффект
+Обрамляем ```<code>Program</code>, <code>Main()</code>```
 
 [![example](https://pp.vk.me/c837538/v837538485/15464/JiQFElorKEI.jpg)]()
 
-Обрамляем ```<code>Program</code>, <code>Main()</code>```
+
+Код тут обрамлять не стоит потому что правильный ответ сразу будет подсвечен хайлайтером в релизе на сайте
+
+[![example](https://pp.vk.me/c837538/v837538485/1546b/4HhOzJgibD4.jpg)]()
