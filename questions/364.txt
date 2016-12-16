@@ -1,0 +1,23 @@
+JGOOGLE2
+
+В результате выполнения следующего фрагмента программы:
+<code>
+using System;
+class Program {
+    static Program () {
+        ch = (char)(ch - j);
+    }
+    static string str = "GOOGLE";
+    static char ch = str[j + 4];
+    static void Main() {
+        Console.Write(ch + str + j);
+    }
+    static int j = 2;
+}
+</code>
+на экран будет выведено:
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведится ничего, введите: 000
+Если возникнет ошибка исполнения или исключение, введите: +++</i>
