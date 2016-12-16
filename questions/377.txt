@@ -1,0 +1,8 @@
+34
+
+В качестве базового типа перечисления может использоваться:
+  1) <code>char</code>  
+  2) <code>bool</code>
+  3) <code>uint</code>
+  4) <code>short</code>
+  5) <code>float</code>
