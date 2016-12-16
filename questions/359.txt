@@ -1,0 +1,10 @@
+1;3;
+
+В классе объявлен метод с заголовком:
+<code>void TakeMoney(decimal num, string password)</code>
+к ошибке компиляции приведет добавление в этот класс метода с заголовком:
+1) decimal TakeMoney(decimal num, string password)
+2) public void TakeMoney(string password, decimal num)
+3) static bool TakeMoney(decimal num, string password)
+4) void GiveMoney(decimal num, string password)
+5) void TakeMoney(decimal password, string num, string username)
