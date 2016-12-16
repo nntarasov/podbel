@@ -1,0 +1,8 @@
+2;4;
+
+В качестве базового типа перечисления может использоваться:
+  1) <code>string</code>  
+  2) <code>int</code>
+  3) <code>double</code>
+  4) <code>ulong</code>
+  5) <code>decimal</code>

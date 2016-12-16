@@ -1,0 +1,14 @@
+2;
+
+Укажите поля подстановки, вставка которых вместо <code>____</code> приведет к выводу на печать текста <code>rad=1,51</code>
+<code>
+double r = 1.512643;
+string form = "rad =____";
+string outp=string.Format(form,r);
+Console.Write(outp);
+</code>
+1)<code>{0:2f}</code>
+2)<code>{0:f2}</code>
+3)<code>(0:f}</code>
+4)<code>{0}</code>
+5)<code>{0:f.2}</code>
