@@ -1,0 +1,20 @@
+W:9W:10W:9
+
+В результате выполнения следующего фрагмента кода:
+<code>
+using System;
+class W {
+	int d = ++z + 1;
+	static void fclass() { Console.Write("W:"); }
+	public void fobject() { fclass(); Console.Write(d); }
+	static int z = 7;
+}
+class test cs{
+	static void Main(){
+		W r1 = new W(); r1.fobject();
+		W r2 = new W(); r2.fobject();
+		W r3 = r1; r3.fobject();
+	}
+}
+</code>
+на экран будет выведено:

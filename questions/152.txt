@@ -1,0 +1,17 @@
+3;
+
+В программе описан класс <b>A</b>
+<code>
+class А {
+	public short і, j = 0;
+	int num;
+	protected char ch, chTemp;
+	private double account;
+}
+</code>
+Какие члены будут доступны членам любого производного от <b>A</b> класса:
+1) і‚і
+2) i,j,num
+3) i,j,ch,chTemp
+4) i,j,ch,chTemp,num
+5) i,j,ch,chTemp,num,account
