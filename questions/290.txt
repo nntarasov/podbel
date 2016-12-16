@@ -1,0 +1,17 @@
+1;3;4;5;
+
+Заданы следующие определения:
+<code>
+short[] ar = { 98, 99, 100, 101 };
+int[] iAr;
+short[] sAr;
+double[] dAr;
+char[] cAr;
+uint[] uAr;
+</code>
+Среди перечисленных операторов, ошибочными являются:
+1) <code>iAr = ar;</code>
+2) <code>sAr = ar;</code>
+3) <code>cAr = ar;</code>
+4) <code>dAr = (double)ar;</code>
+5) <code>uAr = ar;</code>

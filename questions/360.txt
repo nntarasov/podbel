@@ -1,0 +1,8 @@
+3;4;5;
+
+Ошибку на этапе компиляции вызовут методы с заголовками
+1) <code>void F(out int res, params int[] args)</code>
+2) <code>void Deal(out int a, ref int b)</code>
+3) <code>void Divede(out int a, out int remainder, int a, int b)</code>
+4) <code>void Pow(params int[] args, out int res)</code>
+5) <code>void Test(ref int a, params int[] args, ref int b)</code>
