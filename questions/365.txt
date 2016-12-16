@@ -2,6 +2,7 @@
 
 В результате выполнения следующего фрагмента программы:
 <code>
+using System;
 public class Program
 {
     static readonly int q = 15;
