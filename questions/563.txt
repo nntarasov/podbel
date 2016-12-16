@@ -1,0 +1,6 @@
+Типами ссылок являются:
+1) Логический (<code>bool</code>)
+2) Массивы (<code>Array</code>)
+3) Строки (<code>string</code>)
+4) Струкруры (<code>struct</code>)
+5) Тип(<code>void</code>)
