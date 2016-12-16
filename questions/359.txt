@@ -3,8 +3,8 @@
 В классе объявлен метод с заголовком:
 <code>void TakeMoney(decimal num, string password)</code>
 к ошибке компиляции приведет добавление в этот класс метода с заголовком:
-1) decimal TakeMoney(decimal num, string password)
-2) public void TakeMoney(string password, decimal num)
-3) static bool TakeMoney(decimal num, string password)
-4) void GiveMoney(decimal num, string password)
-5) void TakeMoney(decimal password, string num, string username)
+1) <code>decimal TakeMoney(decimal num, string password)</code>
+2) <code>public void TakeMoney(string password, decimal num)</code>
+3) <code>static bool TakeMoney(decimal num, string password)</code>
+4) <code>void GiveMoney(decimal num, string password)</code>
+5) <code>void TakeMoney(decimal password, string num, string username)</code>
