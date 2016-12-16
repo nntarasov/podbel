@@ -1,0 +1,8 @@
+System.Char
+
+В результате выполнения следующего фрагмента программы:
+<code>
+String name = "myName";
+Console.Write(name[1].GetType());
+</code>
+на экран будет выведено:

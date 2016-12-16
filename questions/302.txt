@@ -1,0 +1,18 @@
+AAaBbCc2
+
+В результате выполнения следующей программы:
+<code>
+using System;
+class Program {
+	static Program() {
+		ch = (char)(ch  -  j);
+	}
+	static string str = "AaBbCc";
+	static char ch = str[j + 4];
+	static void Main() {
+		Console.Write(ch + str + j);
+	}
+	static int j = 2;
+}
+</code>
+на экран будет выведено:

@@ -1,0 +1,8 @@
+1;3;5;
+
+Типами значений являются:
+1) Логический (<code>bool</code>)
+2) Массивы (<code>array</code>)
+3) Перечисления (<code>enum</code>)
+4) Строки (<code>string</code>)
+5) Структуры (<code>struct</code>)
