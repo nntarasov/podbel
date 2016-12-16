@@ -2,7 +2,7 @@
 
 В результате выполнения следующего кода
 <code>
-	string str="1110110101111";
+	string str="111010110101111";
 	string[] sAr = str.Split('0');
 	Array.Sort(sAr)
 	Console.Write(sAr[2]);
