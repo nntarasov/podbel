@@ -1,0 +1,17 @@
+2
+
+В результате выполнения следующей программы:
+<code> 
+using System; 
+class test_cs {
+	static string fr(int n) {
+		string res = n.ToString();
+		if (n < 10) return res;
+		return fr(n / 10);
+	}
+	static void Main() {
+		Console.Write(fr(256));
+	}
+}
+</code>
+на экран будет выведено:

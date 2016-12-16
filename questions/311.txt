@@ -1,0 +1,9 @@
+System.Double
+
+В результате выполнения следующего фрагмента программы:
+<code>
+object one = new object();
+one = 61.4 + 2.4 + 33;
+Console.Write(one.GetType());
+</code>
+на экран будет выведено:

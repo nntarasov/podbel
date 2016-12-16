@@ -1,0 +1,8 @@
+1;3;5;
+
+Укажите номера (из приведённого списка) всех видов ограничений, которые могут быть наложены на типизирующие параметры:
+1) <code>where T: class</code>
+2) <code>where T: interface</code>
+3) <code>where T: struct</code>
+4) <code>where T: enum</code>
+5) <code>where T: new()</code>
