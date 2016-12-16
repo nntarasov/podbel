@@ -1,0 +1,25 @@
+***
+
+<b>В результате выполнения следующей программы:</b>
+<code>
+delegate double MyDel(int par); class Program
+    {
+        static void Main()
+        {
+            int z = 5;
+            MyDel le1 = (int x) => { return z-- +1; };
+            MyDel le2 = (x) => { return x + le3(1); };
+            MyDel le3 = x => { return x + 1; };
+            MyDel le4 = x => x + 1 + ++z + le2(7);
+            Console.Write(le1(12));
+            Console.Write(le2(12));
+            Console.Write(le3(12));
+            Console.Write(le4(12));
+        }
+    }
+</code>
+<b>на экран будет выведено:</b>
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>
