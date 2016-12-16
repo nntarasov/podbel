@@ -1,0 +1,26 @@
+﻿357a1b2c3
+
+В результате выполнения следующего кода
+<code>
+using System;
+using System.Collections.Generic;
+static class Agent	{
+	public static void  Print<T>(this Row<T> h)	{
+		T[] v = h.GetValues();
+		Console.Write("{0}{1}{2}", v[0], v[1], v[2]);
+	}
+}
+class Row<T>	{
+	T[] Vals = new T[3];
+	public Row(T v0, T v1, T v2){
+	Vals[0] = v0; Vals[1] = v1; Vals[2] = v2; }
+	public T[] GetValues() { return Vals; }
+}
+class Program {
+	static void Main() {
+		(new Row<int>(3,5,7)).Print();
+		(new Row<string>("a1", "b2", "c3")).Print();
+	}
+}
+</code>
+в консоль будет выведено:

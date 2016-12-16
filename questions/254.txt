@@ -1,0 +1,21 @@
+﻿2481632
+
+В результате выполнения следующего кода
+<code>
+using System;
+delegate int Pattern();
+class Program	{
+	static Pattern Result()	{
+		int state = 1;
+		return () => state *= 2;
+	}
+	
+	static void Main( )	{
+		Pattern pat = Result();
+		for(int k = 4; k > 0; k--)
+			Console.Write(pat());
+		Console.Write(pat());
+	}
+}
+</code>
+в консоль будет выведено:

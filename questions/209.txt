@@ -1,0 +1,38 @@
+998887
+
+<b>В результате выполнения следующей программы:</b>
+<code>
+delegate void RunHandler(ref int d);
+
+    class test_cs
+    {
+        static event RunHandler onRun;
+
+        static void Main()
+        {
+            onRun += new RunHandler(one);
+            onRun += new RunHandler(two);
+            int z = 9;
+            while (z%5 > 2)
+            {
+                onRun(ref z);
+                Console.Write(--z);
+            }
+        }
+
+        static void one(ref int x)
+        {
+            Console.Write(x++);
+        }
+
+        static void two(ref int y)
+        {
+            Console.Write(--y);
+        }
+    }
+</code>
+<b>на экран будет выведено:</b>
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите:---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

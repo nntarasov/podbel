@@ -1,0 +1,27 @@
+﻿---
+
+В пространстве имён определён класс:
+<code>
+class A {
+	const int LIM = 7;
+	int cur = 0;
+	public bool MoveNext() { return cur != LIM; }
+	public object Current {get {return cur++; } }
+	public A GetEnumerator() { return this; }
+}
+</code>
+В результате выполнения фрагмента кода в методе класса из того же пространства имён:
+<code>
+A b = new A();
+	int x;
+	foreach(int a in b)
+		x = a + 3;
+	foreach(int a in b)
+		Console.Write(a);
+</code>
+На экран будет выведено:
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++ </i>
