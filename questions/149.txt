@@ -1,0 +1,8 @@
+2;4;5;
+
+Базовым для перечисления может быть тип:
+1) <code>char</code>
+2) <code>int</code>
+3) <code>string</code>
+4) <code>byte</code>
+5) <code>sbyte</code>

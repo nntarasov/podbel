@@ -1,0 +1,16 @@
+3;
+
+Заданы следующие определения:
+<code>
+short [] ar = { 56, 17, 23, 11 }; 
+int[] iAr; 
+short[] sAr; 
+long[] lAr; 
+double[] dAr;
+</code>
+Среди перечисленных операторов, верными являются:
+1) iAr = ar;
+2) lAr = (long)ar;
+3) sAr = ar;
+4) dAr = (double[])ar;
+5) dAr = (double)ar;

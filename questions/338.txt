@@ -1,0 +1,17 @@
+1;
+
+Заданы следующие определения:
+<code>
+byte[] аr = { (byte)'0', (byte)'1', (byte)'2', (byte) '3' }; 
+			int[] iAr; 
+			short[] sAr; 
+			byte[] bAr; 
+			char[] cAr; 
+			uint[] uAr;
+</code>
+Среди перечисленных операторов, верными являются:
+1) bAr = аr;
+2) сАr = аr;
+3) iAr = (int[])ar;
+4) sAr = (short[])ar;
+5) uAr = (uint[])ar;

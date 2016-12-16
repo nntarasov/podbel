@@ -1,0 +1,15 @@
+2;
+
+В результате выполнения следующего фрагмента программы:
+<code>enum Fruits {Apple, Orange, Grape, Peach}
+static Fruits Fruit;
+static void Main()
+{
+    Console.WriteLine(Enum.GetNames(Fruit.GetType())[1]);
+}</code>
+на экран будет выведено:
+1) <code>Apple</code>
+2) <code>Orange</code>
+3) <code>0</code>
+4) <code>Fruits.Apple</code>
+5) <code>Fruits.Orange</code>

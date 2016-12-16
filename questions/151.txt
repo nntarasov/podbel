@@ -1,0 +1,23 @@
+144
+
+В результате выполнения следующего фрагмента кода:
+<code>using System;
+class A
+{
+    public int[] ar;
+    public A() { ar = new int[3]; }
+}
+class test_cs
+{
+    static void Main()
+    {
+         A obj = new A();
+         obj.ar[0] = 1;
+         A obj1 = new A;
+         obj1.ar = obj.ar;
+         obj.ar[1]=obj1.ar[2]=4;
+         foreach(int temp in obj.ar)
+             Console.Write(temp);
+    }
+}</code>
+на экран будет выведено:

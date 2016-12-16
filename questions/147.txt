@@ -1,0 +1,8 @@
+2;
+
+В декларацию члена интерфейса может входить модификатор:
+1) <code>static</code>
+2) <code>new</code>
+3) <code>abstract</code>
+4) <code>override</code>
+5) <code>virtual</code>

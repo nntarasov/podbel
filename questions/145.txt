@@ -1,0 +1,20 @@
+-2-115
+
+В программе описан класс <code>A</code>:
+<code>class A
+{
+    public int[] ar;
+    public A(int[] a) { ar = a; }
+    public int this[int i]
+    {
+        get { return ar[i]; }
+        set { ar[i] = value > 0 ? value : -1; }
+    }
+}</code>
+В результате выполнения следующего фрагмента кода:
+<code>int[] mAr = { 11, 12, 15 };
+A x = new A(mAr);
+mAr[0] = x[1] = -2;
+foreach (int a in x.ar)
+    Console.Write(a);</code>
+на экран будет выведено:

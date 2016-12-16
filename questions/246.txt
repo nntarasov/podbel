@@ -1,0 +1,38 @@
+4;5;
+
+В классе <code>Program</code> определены методы
+class Program
+{
+    public static int ChangeSort<T>(T[] array)
+    {
+        int changesNumber = 0;
+        for (int j = 0; j < array.Length-1; j++)
+        {
+            for (int i = 0; i < array.Length - 1 - j; i++)
+            {
+                if (array[i].CompareTo(array[i + 1]) > 0)
+                {
+                    T tmp = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = tmp;
+                    changesNumber++;
+                }
+            }
+        }
+        return changesNumber;
+    }
+    static void Main(string[] args)
+    {
+        string[] strArr = { "1", "23", "10", "-11" };
+        Console.Write(ChangeSort<string>(strArr) + " ");
+        foreach (string str in strArr) Console.Write(str+" ");
+    }
+}
+В результате выполнения метода <code>Main()</code> на экран должно быть выведено :
+<code> 2:1 10 -11 23</code>
+Для получения такого результата, вместо пропусков в заголовок метода <code>ChangeSort<T></code> можно подставить:
+1)<code> where T : struct</code>
+2)<code> where T : struct, IComparable</code>
+3)<code> where T : class</code>
+4)<code> where T : class, IComparable</code>
+5)<code> where T : ICopmarable</code>

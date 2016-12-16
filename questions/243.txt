@@ -1,0 +1,25 @@
+3;
+
+В библиотеке объявлены классы <code>NewClass</code> и <code>DerivedFromNewClass</code>:
+<code>public abstract class NewClass
+{
+    protected int a;
+    public NewClass() { }
+    public abstract bool SetA();
+}
+public sealed class DerivedFromNewClass : NewClass
+{
+    public bool SetA()
+    {
+        a = Math.Abs(a);
+        if (a != 0)
+            return true;
+        return false;
+    }
+}
+</code>Среди перечисленных утверждений относительно этих классов верно, что:
+1) класс <code>DerivedFromNewClass</code> не может быть снажбен идентификатором
+2) недопустимо обращение к полю <code>a</code> из класса <code>DerivedFromMyClass</code>
+3) в класс <code>MyClass</code> может быть добавлено объявление вложенного типа
+4) в класс <code>DerivedFromMyClass</code> не может быть добавлено объявление вложенного типа
+5) реализации метода <code>SetA()</code> требуется модификатор <code>new</code>
