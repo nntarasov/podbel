@@ -1,0 +1,9 @@
+w
+
+В результате выполнения следующего фрагмента программы:
+<code>
+	string str1="apple";
+	string str2="worm";
+	Console.Write((str1+str2)[str2.Length()+1]);
+</code>
+на экран будет выведено:
