@@ -1,0 +1,23 @@
+5
+
+В классе определены методы:
+<code>
+static double F(int a, int b) { return a + b; }         //1
+static double F(double a, double b) { return a + b; }   //2
+static double F(short a, short b) { return a + b; }     //3
+static double F(short a, int b) { return a + b; }       //4
+static int F(int a, double b) { return (int)(a + b); }  //5
+</code>
+При выполнении следующего фрагмента программы:
+<code>
+static void Main() {
+    int a = 2;
+    System.Console.Write(F(a, 3.5));
+}
+</code>
+Будет вызван метод из строки с номером:
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведится ничего, введите: 000
+Если возникнет ошибка исполнения или исключение, введите: +++</i>
