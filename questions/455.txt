@@ -1,0 +1,8 @@
+1;5;
+
+Из приведенного ниже списка выберите допустимые в объявлении метода сочетания модификаторов:
+1) <code>public abstract</code>
+2) <code>public static abstract</code>
+3) <code>private virtual</code>
+4) <code>protected override sealed</code>
+5) <code>public new virtual</code>

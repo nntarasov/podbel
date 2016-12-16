@@ -1,0 +1,8 @@
+1;3;4;5;
+
+Верно, что абстрактные члены абстрактного класса могут иметь модификатор:
+1) <code>public</code>
+2) <code>private</code>
+3) <code>protected</code>
+4) <code>internal</code>
+5) <code>protected internal</code>
