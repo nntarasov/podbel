@@ -3,6 +3,6 @@
 Ошибку на этапе компиляции вызовут методы с заголовками
 1) void F(out int res, params int[] args)
 2) void Deal(out int a, ref int b)
-3) void Divede(out unt a, out int remainder, int a, int b)
+3) void Divede(out int a, out int remainder, int a, int b)
 4) void Pow(params int[] args, out int res)
 5) void Test(ref int a, params int[] args, ref int b)
