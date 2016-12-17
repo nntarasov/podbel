@@ -1,0 +1,8 @@
+5;
+
+Выберите верные последовательности ограничений в операторе where:
+1) IComparable, class, new()
+2) class, new, struct
+3) struct, class, new()
+4) struct, new, IComparable
+5) class, IComparable

@@ -1,0 +1,21 @@
+516328
+
+В результате выполнения следующей программы:
+<code>
+using System;
+delegate double MyDel(int par);
+class Program {
+    static void Main() {
+	    int z = 5;
+		MyDel le1 = (int x) => { return --z + 1; };
+		MyDel le2 = (x) => { return x + le1(1); };
+		MyDel le3 = x => {return x + 1; };
+		MyDel le4 = x => x + 1 + ++z + le2(7);
+		Console.Write(le1(12));
+		Console.Write(le2(12));
+		Console.Write(le3(12));
+		Console.Write(le4(12));
+	}
+}
+</code>
+на экран будет выведено:

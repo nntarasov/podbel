@@ -1,0 +1,23 @@
+ru/library/
+
+В результате выполнения следующей программы:
+<code>
+using System;
+using System.Text.RegularExpressions;
+class Program {
+    static void Main(string[] args) {
+	    string url = "ru/library/hs600312(v=vs.110).aspx";
+		Regex map = new Regex(@".*\/");
+		foreach (Match st in map.Matches(url)) {
+		    Console.Write(st);
+		}
+	}
+}
+</code>
+на экран будет выведено:
+<i>
+Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++
+</i>

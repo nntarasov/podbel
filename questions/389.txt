@@ -1,0 +1,23 @@
+-4
+
+<code>
+class TestCs {
+    static void Main() {
+	    byte n = 0;
+		string line = "";
+		try {
+		    Console.Write("Enter N: ");
+			line = Console.ReadLine();
+			n = byte.Parse(line);
+		}
+		catch (Exception) {
+		    Console.Write(line + n++);
+		}
+		finally {
+		    Console.Write(line + n++);
+		}
+	}
+}
+</code>
+На новой строке экрана было выведено: -40-41
+Какое число ввёл пользователь в ответ на приглашение "Enter N: "?

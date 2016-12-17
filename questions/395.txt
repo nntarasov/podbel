@@ -1,0 +1,42 @@
+2255
+
+В пространстве имен приведены следующие описания:
+<code>
+public delegate void EvHappened();
+class A {
+    protected int a = 0;
+	public event EvHappened AEv;
+	public A() { 
+	this.AEv += EvAHappenedHandler; 
+	}
+	public void EvAHappenedHandler() {
+	    if (a > 3) {
+		    this.a++;
+		}
+		Console.Write(a);
+	}
+	public void MethodA() { 
+	    this.AEv();
+	}
+}
+class B : A {
+    public event EvHappened BEv;
+	public void EvBHappenedHandler() {
+	    this.a += 2;
+		MethodA();
+		Console.Write(a);
+	}
+	public void Method() {
+	    this.BEv();
+	}
+}
+</code>
+В результате выполнения фрагмента программы, размещенного в методе класса из того же пространства имен:
+<code>
+B b = new B();
+b.BEv += b.EvBHappenedHandler;
+for (int i = 0; i < 2; i++) {
+    b.Method();
+}
+</code>
+на экран будет выведено:
