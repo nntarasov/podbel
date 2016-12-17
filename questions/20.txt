@@ -1,0 +1,8 @@
+2;4;5;
+
+Комментарии содержатся в строках
+1) <code>str = "/* Some information */"</code>
+2) <code>// shows different ways of commenting code</code>
+3) <code>Console.WriteLine("/* Some comments */");</code>
+4) <code>string s = "may be"; // put in Console.Write("this way")</code>
+5) <code>/* or something like */ Console.WriteLine("that");</code>

@@ -1,0 +1,8 @@
+3;4;
+
+Основной (главный) метод консольного приложения на языке C# может иметь заголовок:
+1)<code>public static void main(string[] args)</code>
+2)<code>public static void main()</code>
+3)<code>public static void Main(string[] args)</code>
+4)<code>public static void Main()</code>
+5)<code>public static void Main(String args)</code>

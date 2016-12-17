@@ -1,0 +1,8 @@
+1;4;5;
+
+Среди методов класса <code>Array</code> статическимим являются
+1) <code>Copy()</code>
+2) <code>CopyTo()</code>
+3) <code>Clone()</code>
+4) <code>Reverse()</code>
+5) <code>Sort()</code>

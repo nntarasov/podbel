@@ -1,0 +1,8 @@
+2;4;5;
+
+Среди методов класса <code>Array</code> нестатическимим являются
+1) <code>Copy()</code>
+2) <code>CopyTo()</code>
+3) <code>IndexOf()</code>
+4) <code>GetValue()</code>
+5) <code>SetValue()</code>

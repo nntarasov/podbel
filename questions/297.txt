@@ -1,0 +1,27 @@
+4536
+
+В результате выполнения следующего фрагмента кода
+<code>
+static void Main()
+{
+	int[] a = new int[] {4, 3, 6};
+	P(F(a));
+	P(a);
+}
+static int F(int[] a)
+{
+	int b = new int[a.Length / 2];
+	for (int i = 0; i < b.Length; i++)
+	{
+		b[i] = a[i];
+		a[i]++;
+	}
+	return b;
+}
+static void P(int[] a)
+{
+	for (int i = 0; i < a.Length; i++)
+		System.Console.Write("{0}", a[i]);
+}
+</code>
+на экран будет выведено
