@@ -1,0 +1,32 @@
+56
+
+В ходе выполнения следующей программы пользователь в ответ на приглашение программы ввел значение "250"
+<code>
+using System;
+class test_cs {
+	static void Main() {
+		sbyte n = 5;
+		string line = "";
+		try {
+			lіпе : Console.ReadLine();
+			n = sbyte.Parse(line);
+		}
+		catch (OverflowException) {
+			Console.Write(line + n++);
+		}
+		catch (Exception) {
+			Console.Write(line + n);
+		}
+		finally {
+			Console.Write(line + ++n);
+		}
+	}
+}
+
+</code>
+на экран будет выведено:
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведится ничего, введите: 000
+Если возникнет ошибка исполнения или исключение, введите: +++</i>
