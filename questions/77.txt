@@ -1,0 +1,14 @@
+0
+
+<i> В результате выполнения следующего фрагмента программы:</i>
+<code> int a = 3;
+int i = 0;
+switch (a)
+{
+	case 1: Console.Write(i++); break;
+	case 2: Console.Write(i++); break;
+	case 3: Console.Write(i++); break;
+	case 4: Console.Write(i++); break;
+	case 5: Console.Write(i++); break;
+}</code>
+<i>На экран будет выведено:</i>

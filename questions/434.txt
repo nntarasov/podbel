@@ -1,0 +1,10 @@
+Sw
+
+В программе декларирован интерфейс IA:
+<code>public interface IA {
+		int Fk {get; }
+		double D {get; set; }
+		private int Sw();
+		void Rg();
+}</code>
+Укажите идентификатор (имя) НЕВЕРНО объявленного члена интерфейса

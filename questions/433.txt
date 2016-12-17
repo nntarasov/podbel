@@ -1,0 +1,10 @@
+1;3;
+
+Верно, что если класс <b>НЕ</b> имеет явно указанного базового класса, то из
+<code>System.Object</code> ему доступны для прямого обращения:
+1) открытые(<code>public</code>) поля
+2) защищенные (<code>protected</code>) и закрытые (<code>private</code>) поля
+3) открытые (<code>public</code>) и защищенные <code>protected</code>) свойства
+4) открытые(<code>public</code>) и закрытые (<code>privat</code>) свойства
+5) открытые(<code>public</code>), защищенные <code>protected</code>) и 
+закрытые (<code>privat</code>) методы

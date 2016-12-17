@@ -1,0 +1,15 @@
+2;
+
+Скомпилировать и выполнить программу:
+<code>static void Main()
+{
+	float a = 7.77f;
+	int b = 12;
+	Console.WriteLine("summ = " + Summ(a, b));
+}</code>
+позволит реализация методов с заголовками:
+1) <code>static string Summ(string a, string b)</code>
+2) <code>static string Summ(double a, long b)</code>
+3) <code>static decimal Summ(int a, float b)</code>
+4) <code>static int Summ(int a, int b)</code>
+5) <code>double Summ(float a, float b)</code>

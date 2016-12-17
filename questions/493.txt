@@ -1,0 +1,11 @@
+2;
+
+В программе размещены следующие объявления:
+<code>	byte B;
+	FileStream F1 = new FileStream("1.txt", FileMode.Open);</code>
+Укажите номера операторов, которые можно использовать для чтения данных из потока <code>F1</code>
+1) <code>B = F1.ReadByte();</code>
+2) <code>B = (byte)F1.ReadByte();</code>
+3) <code>B = (byte)F1.Read();</code>
+4) <code>B = F1.Read();</code>
+5) <code>B = F1.ReadLine();</code>

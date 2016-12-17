@@ -1,0 +1,27 @@
+31228
+
+В результате выполнения следующей программы:
+<code>using System;
+class Program
+{
+	delegate void Del(double[] ar);
+	static void Main()
+	{
+		double[] dar = { 3.1, 22.8 };
+		Del print = delegate(double[] ar)
+		{
+			foreach (double d in ar) Console.Write((int)d / 10);
+		};
+		Del method = delegate(double[] ar)
+		{
+			for(int i = 0; i < ar.Length; i++)
+				Console.Write(ar[i] * 10);
+		};
+		method(dar);
+	}//Main
+}//Program</code>
+на экран будет выведено:
+<i>Примечание:
+Если возникнет ошибка компиляции, выведите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

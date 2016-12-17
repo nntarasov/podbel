@@ -1,0 +1,22 @@
+﻿215432
+
+В результате выполнения следующего кода
+<code>
+using System;
+class A	{
+	int x = 1;
+	protected A() { Console.Write("2" + x++); }
+	~A() { Console.Write("3" + x++); }
+}
+class B : A	{
+	int x = 4;	
+	~B() { Console.Write("5" + x++); }
+}
+class Test {
+	static void Main() {
+		B b = new B();
+		b = null;
+	}
+}
+</code>
+на экран будет выведено:

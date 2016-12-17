@@ -1,0 +1,24 @@
+Errorend
+
+В классе <code>A</code> описан метод:
+<code>public static void m(int b){
+	if (b < 0) throw new ArgumentException("Error");
+	Console.Write(b);
+}</code>
+В результате выполнения следующего фрагмента кода, размещенного в методе <code>Main()</code> того же класса:
+<code>try{
+	int q = -17;
+	try{
+		A.m(q);
+	}
+	catch (Exception ex){
+		Console.Write(ex.Message);
+	}
+}
+catch (ArgumentException e){
+	Cosnole.Write(e.Message);
+}
+finally{
+	Console.Write("end");
+}</code>
+на экран будет выведено:

@@ -1,0 +1,9 @@
+1;2;4;5;
+
+Укажите номера всех истинных высказываний из приведенного списка
+Событие может быть декларировано (объявлено) с модификатором:
+1) <code>abstract</code>
+2) <code>override</code>
+3) <code>readonly</code>
+4) <code>sealed</code>
+5) <code>static</code>

@@ -1,0 +1,8 @@
+2;3;
+
+</i> Верно, что индексирующее выражение может иметь тип:</i>
+1) <code>string</code>
+2) <code>along</code>
+3) <code>char</code>
+4) <code>decimal</code>
+5) <code>double</code>

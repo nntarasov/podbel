@@ -1,0 +1,24 @@
+603030
+
+
+<code>using System;
+class Program
+{
+	delegate void Del(ref int n);
+	static void Main()
+	{
+		Del[] artel = { new Del(fun1),
+			new Del(fun2), new Del(fun1) };
+		int num = 121;
+		foreach (Del de in arDel)
+			de(ref num);
+	}
+	static void fun1(ref int num) {Console.Write(num /= 2);}
+	static void fun2(ref int num) {Console.Write(num /2); }
+}</code>
+<b>На экран будет выведено:</b>
+
+<i> Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведится ничего, введите: 000
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

@@ -1,0 +1,7 @@
+1;
+В качестве первого элемента LINQ-запроса может быть использовано служебное слово
+1) <code>from</code>
+2) <code>let</code>
+3) <code>orderby</code>
+4) <code>select</code>
+5) <code>where</code>

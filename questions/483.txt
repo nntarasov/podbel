@@ -1,0 +1,35 @@
+6
+
+В результате выполнения следующей программы:
+<code>using System;
+class Point
+{
+	public int x,y;
+	public Point(int x,int y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+	public static implicit operator int(Point p)
+	{
+		return p.x + p.y;
+	}
+	public static Point operator +(Point a, Point b)
+	{
+		return new Point(a.x + b.x, a.y + b.y);
+	}
+}
+class Program
+{
+	static void Main()
+	{
+		Point a = new Point(0, 1);
+		Point b = new Point(2, 2);
+		Console.Write(a + b + 1);
+	}
+}</code>
+на экран будет выведено:
+<i>Примечание:
+Если возникнет ошибка компиляции, выведите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

@@ -1,0 +1,30 @@
+***
+
+В результате выполнения следующей программы:
+<code>using System;
+class Point
+{
+	public double x,y;
+	public double Norm(){
+		return x - y;
+	}
+}
+static class Ext
+{
+	public double Norm(this Point p)
+	{
+		return p.x + p.y;
+	}
+}
+class Program
+{
+	static void Main()
+	{
+		Console.Write((new Point(){ x = 10, y=10 }).Norm());
+	}
+}</code>
+на экран будет выведено:
+<i>Примечание:
+Если возникнет ошибка компиляции, выведите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

@@ -1,0 +1,8 @@
+5;
+
+Верно, что членом интерфейса <code>IEnumerable</code> является:
+1) <code>GetNext</code>
+2) <code>Current</code>
+3) <code>MoveNext</code>
+4) <code>Reset</code>
+5) <code>GetEnumerator</code>

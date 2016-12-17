@@ -1,0 +1,31 @@
+﻿3
+
+Какие из команд могут быть добавлены вместо пропусков в 4-ую строку метода <code>Main()</code> фрагмента программы:
+<code>
+using System;
+class A
+{
+	int x = 1;
+	public virtual meth() { Console.Write("f" + x); }
+}
+class B : A
+{
+	int x = 4;
+	public B() { meth(4); Console.Write("w" + x++); }
+	public void meth(int z) { x = 2 * z; }
+}
+class Test
+{
+	static void Main()		//1
+	{						//2
+		A b = new B();		//3
+		_ _ _ _ _ _ _ _		//4
+	}						//5
+}
+</code>
+чтобы его исполнение <b>не</b> привело к ошибке
+1) <code>b.meth(3, 3);</code>
+2) <code>b.meth(3);</code>
+3) <code>b.meth();</code>
+4) <code>b.meth('a');</code>
+5) <code>b.meth(3.8);</code>

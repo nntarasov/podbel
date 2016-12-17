@@ -1,0 +1,29 @@
+﻿1;2;5;
+
+Какие из команд могут быть добавлены вместо пропусков в 13-ую строку фрагмента программы:
+<code>
+using System;											//1
+class A {												//2			
+	...
+}														//3
+class B : A {											//4
+	...
+}														//5
+class C : B {											//6
+	...
+}														//7
+public class Program {									//8
+	public static void Main() {							//9													//10
+		A x1 = new A();									//10
+		B x2 = new B();									//11
+		C x3 = new C();									//12
+		_ _ _ _ _ _ _ _									//13
+	}													//14
+}														//15
+</code>
+чтобы его исполнение <b>не</b> привело к ошибке
+1) <code>x1 = x2;</code>
+2) <code>x1 = x2 = x3;</code>
+3) <code>x3 = x2;</code>
+4) <code>x3 = x1;</code>
+5) <code>x2 = x3;</code>

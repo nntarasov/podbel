@@ -1,0 +1,12 @@
+BlackXBlackX
+
+<b>В результате выполнения следующего фрагмента программы:</b>
+<code>string st1 = System.ConsoleColor.Black.ToString();
+string st2 = new string(st1.ToCharArray());
+if (st1 == st2) Console.Write(st1+'X');
+if (st1.Equals(st2)) Console.Write(st2+'X');</code>
+<b>на экран будет выведено:</b>
+<i> Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведится ничего, введите: 000
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

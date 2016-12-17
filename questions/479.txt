@@ -1,0 +1,9 @@
+1;5;
+
+Укажите номера верных высказываний.
+Статическими классами являются:
+1) <code>File</code>
+2) <code>FileInfo</code>
+3) <code>FileStream</code>
+4) <code>BinaryReader</code>
+5) <code>Directory</code>
