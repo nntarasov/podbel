@@ -1,13 +1,6 @@
-﻿2
+﻿15
 
 В результате выполнения следующего фрагмента программы:
-<code>int i = 0, j = 5, k = 0;
-
-while (i < j)
-{
-	i++; j--;
-	k = --j + (i++) % 2;
-}
-
-Console.Write(k);</code>
+<code>int s = 5, i = s < 5 ? -10 : s + 10;
+Console.WriteLine(i.ToString());</code>
 нa экран будет выведено:

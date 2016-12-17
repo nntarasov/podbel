@@ -1,0 +1,20 @@
+﻿2;
+
+В классе определены методы:
+<code>static double F(int a, int b) { return a + b; }	//1
+static double F(double a, double b) { return a + b; }	//2
+static double F(short a, double b) { return a + b; }	//3
+static double F(short a, int b) { return a + b; }	//4
+
+static void Main()
+{
+	int a = 2;
+	System.Console.Write(F(a, 3.5));
+}</code>
+Верно, что:
+1) будет вызвана функция 3;
+2) будет вызвана функция 2;
+3) будет вызвана функция 1
+;
+4) нет реализации функции <code>F()</code>, соответствующей вызову;
+5) программа некорректна.

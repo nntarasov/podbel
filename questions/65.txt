@@ -1,0 +1,8 @@
+﻿S
+
+В результате выполнения следующего фрагмента программы:
+<code>char s, beg = 'S', end = (char)(beg + 5);
+for (s = beg; s < end; s++)
+	if (s % beg == 0) Console.Write(s);
+	else continue;</code>
+на экран будет выведено:
