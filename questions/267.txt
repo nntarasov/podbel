@@ -1,0 +1,9 @@
+3;5;
+
+Для выборки из некоторой последовательности <code>numbers</code> всех чётных 
+чисел и упорядочения их по возрастанию можно использовать:
+1) <code>from z in numbers where z % 2 == 0 select z;</code>
+2) <code>from z in numbers where z / 2 == 0 orderby z select z;</code>
+3) <code>from z in numbers where z % 2 == 0 orderby z select z;</code>
+4) <code>from z in numbers select z where z % 2 == 0 orderby z;</code>
+5) <code>from z in numbers orderby z where z % 2 == 0 select z;</code>

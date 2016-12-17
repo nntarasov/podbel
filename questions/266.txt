@@ -1,0 +1,8 @@
+1;3;4;
+
+Укажите имена членов, объявленных в интерфейсе <code>IEnumerator</code>:
+1)<code>Current</code>
+2)<code>GetEnumerator</code>
+3)<code>MoveNext</code>
+4)<code>Reset</code>
+5)<code>ToString</code>

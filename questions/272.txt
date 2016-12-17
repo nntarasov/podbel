@@ -1,0 +1,31 @@
+zyxzyxw
+
+В результате выполнения следующего кода
+<code> 
+using System;
+using System.Collections.Generic;
+class Program
+{
+    static void printArray<T>(T[] ar, string format)
+    {
+        foreach (T z in ar)
+            Console.Write(format, z);
+    }
+    static char[] Line(int numb)
+    {
+        char[] res = new char[numb];
+        for (char p = 'z'; p > 'z' - numb; p--)
+            res['z' - p] = p;
+        return res;
+    }
+    static void Main()
+    {
+        Action<char[], string> act =
+            new Action<char[], string>(printArray);
+        Func<int, char[]> result = new Func<int, char[]>(Line);
+        act(Line(3), "{0}");
+        act(Line(4), "{0}");
+    }
+}
+</code>
+в консоль будет выведено:

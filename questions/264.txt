@@ -1,0 +1,21 @@
+12
+
+В результате выполнения следующей программы:
+<code> 
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        File.WriteAllText("Output.txt", "HSE - ВШЭ");
+        FileStream fs = new FileStream("Output.txt", FileMode.Open);
+        Console.Write(fs.Length);
+    }
+}
+</code>
+на экран будет выведено:
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

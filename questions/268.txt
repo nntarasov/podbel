@@ -1,0 +1,23 @@
+16
+
+В результате выполнения следующего фрагмента кода:
+<code>#define Q1
+using System;
+class Program
+{
+    delegate int meth(int a);
+    static void Main()
+    {
+        meth m = new meth(x => { return 2 * x + 1; });
+        int tmp = 5;
+#if !Q1 && Q2
+        tmp+=m(tmp);
+#elif Q1
+        tmp+=m(tmp);
+#elif Q2
+        tmp+=m(tmp);
+#endif
+        Console.Write(tmp);
+    }
+}</code>
+на экран будет выведено:

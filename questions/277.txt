@@ -1,0 +1,9 @@
+System.Single
+
+В результате выполнения следующего фрагмента программы:
+<code>
+object one = new object();
+one = 61.4f + 2.4f + 33;
+Console.Write(one.GetType());
+</code>
+на экран будет выведено:

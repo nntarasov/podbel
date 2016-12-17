@@ -1,0 +1,43 @@
+﻿"3+0.2;1+0;-1+-0.2;"
+
+В результате выполнения следующего кода
+<code>using System;
+class RealNumber //  вещественное число
+{	
+    double fraction;	//.. дробная часть
+    int integer;		//.. целая часть
+    public RealNumber(double d) // Конструктор
+    {	
+        integer = (int)d; fraction = d - integer;
+    }
+    public void print()
+    {
+        Console.Write("{0}+{1};", integer, fraction);
+    }
+    public static implicit operator RealNumber(double t)
+    {
+        return new RealNumber(t);
+    }
+    public static RealNumber operator+(RealNumber r, double t)
+    {
+        return new RealNumber(r.integer + r.fraction + t);
+    }
+    static public bool operator true(RealNumber r)
+    {
+        if (r.integer > 0) return true; else return false;
+    }
+    static public bool operator false(RealNumber r)
+    {
+        if (r.fraction > 0) return true; else return false;
+    }
+} // End of class
+class Program
+{
+    static void Main()
+    {
+        RealNumber rn = new RealNumber(5.4);
+        while (rn) (rn = rn + (-2.2)).print();
+    }
+}</code>
+в консоль будет выведено:
+

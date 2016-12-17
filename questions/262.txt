@@ -1,0 +1,35 @@
+﻿123466
+
+В пространстве имён приведены следующие описания
+<code>public delegate void EvHappened();
+class A
+{
+    protected int a = 0;
+    public EvHappened AEv;
+}
+class B:A
+{
+    public EvHappened BEv;
+    public B() { this.AEv += EvBHappenedHandler; }
+    public void EvAHappenedHandler()
+    {
+        if (a > 3)
+            this.AEv();
+        else
+            this.a++;
+        Console.Write(a);
+    }
+    public void EvBHappenedHandler()
+    {
+        this.a += 2; Console.Write(a);
+    }
+}</code>
+В результате выполнения фрагмента программы, размещённого в методе 
+класса из того же пространства имён:
+<code>B b = new B();
+b.BEv += b.EvAHappenedHandler;
+for (int i = 0; i < 5; i++)
+{
+b.BEv();
+}</code>
+на экран будет выведено:
