@@ -1,0 +1,27 @@
+{*a*=*one, *b*=*два*}
+
+В результате выполнения следующего фрагмента кода
+<code>
+using System;
+using System.Linq;
+class Programm{
+	static void Main(){
+		string[] names = new string[] {
+			"one", "two", "three", "four", "five"};
+		string[] имена = new string[]{
+			"один", "два", "три", "четыре", "пять"};
+		var r = from h in names
+				join g in имена on h.Length equals g.Length
+				select(new {a = b, b = g}).ToString();
+		foreach(var d in r){
+		Console.Write(d.Replace(' ', '*'));
+		break; }
+	}
+}
+</code>
+на экран будет выведено
+
+Примечание:
+Если возникнет ошибка компиляции, введите ***
+Если ошибок и исключений нет, но на экран ничего не выведется, введите ---
+Если возникнет ошибка исполнения или исключение, введите +++
