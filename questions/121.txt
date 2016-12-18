@@ -1,0 +1,8 @@
+5;
+
+ПАРАМЕТР индексатора может быть отмечен модификатором:
+1) <code>new</code>
+2) <code>out</code>
+3) <code>ref</code>
+4) <code>static</code> 
+5) <code>params</code>
