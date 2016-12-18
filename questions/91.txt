@@ -1,0 +1,19 @@
+4
+
+Что будет выведено на экран в результате выполнения следующего фрагмента программы?
+<code>
+static void Main()
+{
+	int a = 27;
+	Console.WriteLine(Calculate(a));
+}
+static int Calculate(int c)
+{
+	if (c == 1)
+		return 1;
+	else if (c == 0)
+		return 0;
+	else
+		return c % 2 + Calculate(c / 2);
+}
+</code>

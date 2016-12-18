@@ -1,0 +1,8 @@
+2;4;
+
+В методы по ссылке передаются параметры, снабженные модификатором:
+1) <code>params</code>
+2) <code>ref</code>
+3) <code>args</code>
+4) <code>out</code>
+5) <code>new</code>

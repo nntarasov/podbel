@@ -1,0 +1,12 @@
+1;2;3;5;
+
+В некотором классе объявлен метод со следующим заголовком:
+<code>
+private static Int16 ReadMatrix(int n, int m)
+</code>
+К ошибке компиляции приведёт добавление в этот класс метода с заголовком:
+1) <code>private Int16 ReadMatrix(int n, int m)</code>
+2) <code>Int16 ReadMatrix(int n, int m)</code>
+3) <code>private static Int16 ReadMatrix(int m, int n)</code>
+4) <code>public int ReadMatrix(short n, short m)</code>
+5) <code>public short ReadMatrix(int n, int m)</code>

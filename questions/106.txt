@@ -1,0 +1,10 @@
+35
+
+Подряд без пробелов перечислите номера строк, в которых возникнут ошибки при компиляции фрагмента программы:
+<code>
+string str = Console.ReadLine();							// 1
+int count;													// 2
+for (int i = 0; i < str.GetLength(0); i++)					// 3
+	if (str[i] == ' ' && Char.IsLetter(str[i + 1]))			// 4
+		count++;											// 5
+</code>

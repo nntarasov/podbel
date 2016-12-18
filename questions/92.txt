@@ -1,0 +1,8 @@
+2;
+
+Верно, что метод <code>Main()</code> может быть объявлен с параметром типа:
+1) <code>string</code>
+2) <code>string[]</code>
+3) <code>int</code>
+4) <code>int[]</code>
+5) <code>void</code>

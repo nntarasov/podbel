@@ -1,0 +1,8 @@
+1;2;4;
+
+Ошибку на этапе компиляции вызовут методы с заголовками:
+1) <code>private string Do(void a)</code>
+2) <code>private fload Do(out a)</code>
+3) <code>static void Do()</code>
+4) <code>public static void int Do()</code>
+5) <code>private string Do(ref System.Decimal a)</code>

@@ -1,0 +1,8 @@
+3;4;
+
+Параметр с модификатором <code>params</code> может иметь тип:
+1) <code>string</code>
+2) <code>char</code>
+3) <code>bool[]</code>
+4) <code>int[]</code>
+5) <code>void[]</code>

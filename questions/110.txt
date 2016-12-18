@@ -1,0 +1,8 @@
+1;4;
+
+Укажите номера операторов, корректно формирующих строки:
+1) <code>string str = new string('a', 10);</code>
+2) <code>string str = new string();</code>
+3) <code>string str = new string("Привет!");</code>
+4) <code>string str = "Привет" + "!";</code>
+5) <code>string = "Привет!";</code>

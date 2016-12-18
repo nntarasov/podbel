@@ -1,0 +1,18 @@
+2;3;4;
+
+Скомпилировать и выполнить программу
+<code>
+using System;
+
+static void Main()
+{
+	float a = 4.45f, b = 2.71f, c = 3.14f;
+	Console.WriteLine(Do(a, b, c));
+}
+</code>
+позволит реализация методов с заголовками:
+1) <code>static int Do(int a, int b, int c)</code>
+2) <code>static decimal Do(float a, float b, float c)</code>
+3) <code>static double Do(float a, float b, float c)</code>
+4) <code>static double Do(double a, float b, double c)</code>
+5) <code>static float Do(float a, out float b, float c)</code>

@@ -1,0 +1,8 @@
+3;4;
+
+К созданию строки "Мир" приведёт выполнение операторов:
+1) <code>string str = Convert.ToString("`М``и``р`");</code>
+2) <code>string str = new char[] {'M', 'и', 'р'}.ToString();</code>
+3) <code>string str = string.Copy("Ми") + string.Copy("р");</copy>
+4) <code>string str = new string('М', 1) + "и" + 'p'.ToString();</copy>
+5) <code>string str = {'М', 'и', 'р'};</code>

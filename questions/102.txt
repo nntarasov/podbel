@@ -1,0 +1,17 @@
+4;
+
+В результате выполнения следующего фрагмента программы:
+<code>
+string hello = "Привет, друг!";
+char[] chArr = hello.ToCharArray();
+char[] word = new char[7];
+Array.Copy(chArr, 6, word, 0, 6);
+word[6] = hello[hello.Length - 1];
+Console.WriteLine(word);
+</code>
+на экран будет выведено:
+1) "Привет!"
+2) "Привет, друг!"
+3) "Друг00!"
+4) ", друг!"
+5) "Привет,"

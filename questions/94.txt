@@ -1,0 +1,22 @@
+3
+
+Что будет выведено на экран в результате выполнения следующей программы?
+<code>
+using System;
+
+class Program
+{
+	static int[] ar = {1, 0, 1, 1, 0};
+	static int numb = 2;
+	static Program()
+	{
+		ar1 = ar;
+		numb += ar1[2] + ar[1];
+	}
+	static int[] ar1 = new int[5];
+	static void Main(string[] args)
+	{
+		Console.Write(numb);
+	}
+}
+</code>
