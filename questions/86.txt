@@ -1,0 +1,11 @@
+1:0False
+
+В результате выполнения следующего фрагмента программы:
+<code>
+string s1 = "АНТОНОВКА", s2 = "антоновка", s3 = "АНТОНОВКА";
+Console.Write(s1.CompareTo(s2));
+Console.Write(":");
+Console.Write(s1.CompareTo(s3));
+Console.Write(":" + s1 == s3);
+</code>
+на экран будет выведено:
