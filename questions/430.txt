@@ -1,0 +1,8 @@
+1;2;4;
+
+Выберите верные последовательности ограничений в операторе <code>where</code>
+1) class, new()
+2) struct, new()
+3) struct, new()‚ class
+4) new()
+5) new()‚ IComparable

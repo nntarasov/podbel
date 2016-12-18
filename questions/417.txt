@@ -1,0 +1,32 @@
+﻿100
+
+В программе описаны классы А и В
+<code>
+public class A {
+	private int F;
+	public virtual void SetF(int f) {
+		F = f * 10;
+	}
+	public void PrintF() {
+		Console.WriteLine(F);
+	}
+}
+public class B : A {
+	public B(int f) {
+		SetF(int f);
+		PrintF();
+	}
+	public override void SetF(int f) {
+		base.SetF(f);
+	}
+}
+В результате выполнения следующего фрагмента программы:
+<code>
+B b = new B(10);
+</code>
+В консольное окно будет выведено:
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++ </i>
