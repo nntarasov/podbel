@@ -1,0 +1,40 @@
+AB
+
+<b>В библиотеке классов декларированы классы </b><code>A, B</code> <b>и</b> <code>C</code>:
+<code>
+abstract class A {
+	public static A CreateInstance(string sign) {
+		A res;
+		if ((res = B.CreateInstance(sign)) != null)
+			return res;
+		if ((res = C.CreateInstance(sign)) != null)
+			return res;
+		return null;
+	}
+	public A() { Console.Write("A"); }
+}
+class B : A {
+	public new static B CreateInstance(string sign) {
+		if (sign == "B")
+			return new B();
+		return null;
+	}
+	public B() { Console.Write("B"); }
+}
+class C : A {
+	static new C CreateInstance(string sign) {
+		if (sign == "C")
+			return new C();
+		return null;
+	}
+	public C() { Console.Write("C"); }
+}
+</code>
+<b>В консольном приложении, использующем эту библиотеку классов, записан оператор:</b>
+<code>	A a = B.CreateInstance("B");
+<b>В результате его выполнения на экран будет выведено:</b>
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

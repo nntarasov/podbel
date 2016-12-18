@@ -1,0 +1,22 @@
+45
+
+<b>В библиотеке классов объявлены классы </b><code>NewClass</code><b> и </b><code>DerivedFromNewClass</code>:
+<code>public abstract class NewClass {
+	protected int a;
+	public NewClass() {}
+	public abstract bool SetA();
+}
+public sealed class DerivedFromNewClass : NewClass {
+	public bool SetA() {
+		a = Math.Abs(a);
+		if (a!=0) return true;
+		return false;
+	}
+}
+</code>
+<b>Среди перечисленных утверждений относительно этих классов верно, что:</b>
+1) класс <code>DerivedFromNewClass</code> не может быть унаследован от <code>NewClass</code>;
+2) класс <code>DerivedFromNewClass</code> должен быть снабжён модификатором abstract;
+3) недопустимо в вызывающем коде создание объектов типа <code>DerivedFromNewClass</code>;
+4) недопустимо в вызывающем коде создание объектов типа <code>NewClass</code>;
+5) недопустимо создание наследников класса <code>DerivedFromNewClass</code>

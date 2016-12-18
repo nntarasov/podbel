@@ -1,0 +1,12 @@
+Rg
+
+<b>В программе декларирован интерфейс </b><code>IA:</code>
+<code>
+public interface IA {
+	int Fk {get; }
+	double D { get; set; }
+	public int Sw();
+	public static void Rg();
+}
+</code>
+<b>Укажите идентификатор(имя) НЕВЕРНО объявленного члена интерфейса:</b>

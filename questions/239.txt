@@ -1,0 +1,23 @@
+***
+
+<b>В библиотеке классов объявлены интерфейс </b><code>Foo</code><b> и классы </b><code>A, B, C</code>:
+<code>
+public interface Foo {int F(int a); }
+public class A : Foo {
+	public int F(int a) {return a * 10;}
+}
+public class B {
+	public int F(int a) { return a * 20;}
+}
+public class C {
+	public C(Foo bar1, Foo bar2) {Console.Write(bar1.F(bar2.F(1)));}
+}
+</code>
+<b>В консольном приложении, использующем эту библиотеку классов, записан оператор:</b>
+<code>	C c = new C(new A(), new B());
+<b>В результате его выполнения на экран будет выведено:</b>
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>

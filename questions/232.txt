@@ -1,0 +1,22 @@
+1;3;4;
+
+В программе библиотеке классов объявлены структурные типы <code>Student</code> и <code>DefStudent</code>:
+<code>
+public struct Student {
+	protected string firstName;
+	public string FirstName {
+		get {return firstName; }
+	}
+}
+public struct DefStudent : Student {
+	string lastName;
+	public DefStudent() {
+		lastName = "";
+	}
+}</code>
+в приведённых описаниях содержатся следующие ошибки:
+1) поле <code>firstName</code> структуры <code>Student</code> содержит модификатор <code>protected</code>;
+2) поле <code>firstName</code> структуры <code>Student</code> объявлено без инициализатора;
+3) структура <code>DefStudent</code> наследует структуру <Student>;
+4) в структуре <code>DefStudent</code> объявлен конструктор без параметров;
+5) поле <code>lastName</code> структуры <code>DefStudent</code> объявлено без инициализатора.

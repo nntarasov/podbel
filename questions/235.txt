@@ -1,0 +1,32 @@
+34
+
+<b>В результате выполнения следующей программы:</b>
+<code>
+using System;
+class Program {
+	delegate int Del_1(int i);
+	delegate int Del_2();
+	static void Main() {
+		const int Max = 4, x = 1;
+		Del_1 prF = (j) => {
+			int z = 0;
+			for (int i = 1; i <= Max; i++)
+				z +=  j * x / i;
+			return z;
+		};
+		Del_2 Del_2F = () => {
+			int y = 0;
+			for (int i = 1; i <= Max; i++)
+				y *= prF(i);
+			return y;
+		};
+		Console.Write(Del_2F());
+	}
+}
+</code>
+<b>на экран будет выведено:</b>
+
+<i>Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++</i>
