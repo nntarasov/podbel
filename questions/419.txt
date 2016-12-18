@@ -1,0 +1,29 @@
+13001301
+
+<b>При выполнении следующей программы:</b>
+<code>
+class test_cs
+{
+    static void Main()
+    {
+        sbyte n = 0;
+        string line = "";
+        try
+        {
+            Console.Write("Enter N: ");
+            line = Console.ReadLine();
+            n = sbyte.Parse(line);
+        }
+        catch
+            (Exception)
+        {
+            Console.Write(line + n++);
+        }
+        finally
+        {
+            Console.Write(line + n++);
+        }
+    }
+}
+</code>
+<b>пользователь в ответ на приглашение «Enter N:» ввёл число: 130 Что выведет программа на следующей строке?</b>
