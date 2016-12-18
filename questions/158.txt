@@ -1,0 +1,8 @@
+1;2;
+
+Верно, что из метода производного класса через имя с префиксом <code>base</code> можно обратиться к членам базового класса отмеченным единственным модификатором:
+1) <code>public</code>
+2) <code>protected</code>
+3) <code>private</code>
+4) <code>virtual</code>
+5) <code>new</code>

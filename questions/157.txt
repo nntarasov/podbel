@@ -1,0 +1,8 @@
+3;4;5;
+
+Верно, что в объвлении конструктора допустим идентификатор:
+1) <code>sealed</code>
+2) <code>new</code>
+3) <code>private</code>
+4) <code>extern</code>
+5) <code>protected</code>
