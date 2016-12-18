@@ -1,0 +1,23 @@
+10
+
+В результате выполнения следующего фрагмента кода:
+<code>
+using System;
+class A {
+	public A() { print(); }
+	public virtual void print() { Console.Write("!"); }
+}
+class B : A {
+	int x = 1, y;
+	public B() { y = -1; }
+	public override void print() {
+		Console.Write(x.ToString() + y.ToString());
+	}
+}
+class Program {
+	static void Main() {
+		B obj = new B();
+	}
+}
+</code>
+на экран будет выведено:

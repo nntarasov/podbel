@@ -1,0 +1,8 @@
+1;2;
+
+Верно, что виртуальный не абстрактный метод базового класса может иметь модификатор:
+1) <code>public</code>
+2) <code>protected</code>
+3) <code>private</code>
+4) <code>new</code>
+5) <code>override</code>

@@ -1,0 +1,10 @@
+1;4;5;
+
+В открытом классе W определён только один конструктор:
+<code>public W(double s, char ch) { d = (int)s + ch;}</code>
+В каких операторах будут выявлены ошибки:
+1) <code>W r = new W();</code>
+2) <code>W[] p = new W[3];</code>
+3) <code>W s = new W(32.4, 'g');</code>
+4) <code>W[] t = new (W(8.4, 'r'), new W(1e-2, '9'), new W());</code>
+5) <code>W[5] y = new W[5];</code>
