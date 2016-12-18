@@ -1,14 +1,14 @@
-﻿76541
+﻿021021
 
 В результате выполнения следующего фрагмента программы:
-<code>int i = 7;
+<code>int i = 9;
 
 while (i > 0)
 {
 	do
-		if (i > 3) Console.Write(i);
-	while (i-- > 2);
-	Console.Write(i);
+		if (i > 4) Console.Write(i % 3);
+	while (i-- > 3);
+	Console.WriteLine(--i);
 	break;
 }</code>
 нa экран будет выведено:

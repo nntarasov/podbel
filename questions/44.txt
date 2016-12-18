@@ -1,9 +1,0 @@
-﻿2;
-
-В языке С# может быть исполнено автоматическое преобразование
- типа:
-1) из типа <code>char</code> в тип <code>short</code>;
-2) из типа <code>char</code> в тип <code>ushort</code>;
-3) из типа <code>ushort</code> в тип <code>char</code>;
-4) из типа <code>short</code> в тип <code>char</code>;
-5) из типа <code>uint</code> в тип <code>char</code>, если значение переменной типа <code>uint</code> не превышает 65535.

@@ -1,7 +1,8 @@
-﻿1
+﻿153
 
 В результате выполнения следущего фрагмента программы:
-<code>int s = 51 % 5, a;
-a = s == 2 ? ++s : s--;
-Console.WriteLine(a.ToString());</code>
-на экран будет выведено:
+<code>int z = 18, e, r = z;
+e = z >> 4 != 0 ? r++ - 3 : z + 3;
+Console.Write(e);
+Console.WriteLine(e % 3 == 0 || z - r == 0 ? z-- - e : z + e);</code>
+нa экран будет выведено:

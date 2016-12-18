@@ -1,13 +1,14 @@
-﻿2
+﻿76541
 
 В результате выполнения следующего фрагмента программы:
-<code>int i = 0, j = 5, k = 0;
+<code>int i = 7;
 
-while (i < j)
+while (i > 0)
 {
-	i++; j--;
-	k = --j + (i++) % 2;
-}
-
-Console.Write(k);</code>
-на экран будет выведено:
+	do
+		if (i > 3) Console.Write(i);
+	while (i-- > 2);
+	Console.Write(i);
+	break;
+}</code>
+нa экран будет выведено:

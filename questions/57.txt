@@ -1,7 +1,13 @@
-﻿-16240
+﻿2
 
 В результате выполнения следующего фрагмента программы:
-<code>sbyte q = 120, p = 120, s = (sbyte)(q + p);
-Console.Write(s);
-Console.Write(q + p);</code>
-нa экран будет выведено:
+<code>int i = 0, j = 5, k = 0;
+
+while (i < j)
+{
+	i++; j--;
+	k = --j + (i++) % 2;
+}
+
+Console.Write(k);</code>
+на экран будет выведено:

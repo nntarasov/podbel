@@ -1,14 +1,6 @@
-﻿021021
+﻿15
 
 В результате выполнения следующего фрагмента программы:
-<code>int i = 9;
-
-while (i > 0)
-{
-	do
-		if (i > 4) Console.Write(i % 3);
-	while (i-- > 3);
-	Console.WriteLine(--i);
-	break;
-}</code>
+<code>int s = 5, i = s < 5 ? -10 : s + 10;
+Console.WriteLine(i.ToString());</code>
 нa экран будет выведено:
