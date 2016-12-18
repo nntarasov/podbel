@@ -1,0 +1,26 @@
+4;
+
+Объявлены классы A и B:
+<code>
+class A {
+    protected int _f;
+	protected A(int f) {
+	    _f = f;
+		Console.Write("A:" + f);
+	}
+	public A() { Console.Write("A:" + _f); }
+	protected A CreateA() { return new A(3); }
+}
+class B : A {
+    public B(int f) : base(f+1) {}
+	public B(): base(3) { Console.Write("A:" + 3); }
+	public B(bool f) { CreateA(); }
+}
+</code>
+Укажите операторы, применение которых в теле метода Main(), находящегося в классе того же пространства имен, приводит к появлению на экране строки A:3
+
+1) <code>A a2 = new A();</code>
+2) <code>B b1 = new B();</code>
+3) <code>A a = new A(3);</code>
+4) <code>B b = new B(2);</code>
+5) <code>B b2 = new B(true);</code>

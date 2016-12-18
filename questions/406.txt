@@ -1,0 +1,28 @@
+btfl
+
+В результате выполнения следующей программы:
+<code>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class Program {
+    static void Main() {
+	    IEnumerable<char> word = "beautiful";
+		foreach (var ch in "aeiou") {
+		    var t = ch;
+			word = word.Where(c => c != t);
+			}
+		foreach (var ch in word)
+		    Console.Write(ch);
+	}
+}
+</code>
+на экран будет выведено:
+
+<i>
+Примечание:
+Если возникнет ошибка компиляции, введите: ***
+Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если возникнет ошибка исполнения или исключение, введите: +++
+</i>

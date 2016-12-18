@@ -1,0 +1,12 @@
+Rg
+
+В программе декларирован интерфейс IA:
+<code>
+public interface IA {
+    int Fk { get; }
+	double D { get; set; }
+	int Sw();
+	static void Rg();
+}
+</code>
+Укажите идентификатор (имя) НЕВЕРНО объявленного члена интерфейса:

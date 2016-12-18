@@ -1,0 +1,9 @@
+2;3;4;
+
+Верно, что членом интерфейса IEnumerator является:
+
+1) GetNext
+2) Current
+3) MoveNext
+4) Reset
+5) Begin
