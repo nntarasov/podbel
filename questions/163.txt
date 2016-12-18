@@ -1,0 +1,21 @@
+6d6b8
+
+В результате выполнения следующего фрагмента кода:
+<code>
+using System;
+class One {
+	int g = 5;
+	public One() { Console.Write(f() + "d" + g++); }
+	protected string f() { return ""+ ++g; }
+}
+class Two : One {
+	public Two() { Console.Write("b"+f()); }
+}
+
+class test_cs {
+	static void Main() {
+		Two ob = new Two();
+	}
+}
+</code>
+на экран будет выведено:
