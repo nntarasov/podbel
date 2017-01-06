@@ -9,11 +9,11 @@ class W {
 	public void fobject() { fclass(); Console.Write(d); }
 	static int z = 7;
 }
-class test cs{
+class test_cs{
 	static void Main(){
 		W r1 = new W(); r1.fobject();
 		W r2 = new W(); r2.fobject();
-		W r3 = r1; r3.fobject();
+		W r3 = r1;      r3.fobject();
 	}
 }
 </code>

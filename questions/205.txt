@@ -1,8 +1,8 @@
 2;
 
-<b>В код программы добавлен оператор:</b>
-<code> delegate void MyDel (int x, out double med); </code>
-<b>Верно, что он отвечает за:</b>
+В код программы добавлен оператор:
+<code>delegate void MyDel (int x, out double med);</code>
+Верно, что он отвечает за:
 1) создание объекта делегата типа <code>MyDel</code>
 2) описание типа делегата с именем <code>MyDel</code>
 3) декларацию анонимного метода с именем <code>MyDel</code>

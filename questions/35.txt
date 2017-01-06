@@ -1,11 +1,10 @@
 4
 
 Подряд без пробелов перечислите номера строк, в которых есть синтаксические ошибки:
-<code>
-	byte b=0,							//1
-	c=b;								//2
-	if(c++ > --b)							//3
-		Console.WriteLine(b=!(bool)c);				//4
-	else 								//5
-	Console.Write(c);						//6
+<code>byte b = 0,				        // 1
+c = b;						// 2
+if(c++ > --b)					// 3
+	Console.WriteLine(b=!(bool)c);		// 4
+else 						// 5
+Console.Write(c);				// 6
 </code>

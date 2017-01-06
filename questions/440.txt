@@ -12,12 +12,10 @@ public sealed class DerivedFromNewClass : NewClass {
 		return false;
 	}
 }</code>
-<b>Среди перечисленных утверждений относительно этих классов верно, что:</b>
-1) класс <code>DerivedFromNewClass</code> не может быть снабжён модификатором 
-sealed
-2) недопустимо обращение к полю <code>a</code> из класса
-<code>DerivedFromNewClass</code>
+
+Среди перечисленных утверждений относительно этих классов верно, что:
+1) класс <code>DerivedFromNewClass</code> не может быть снабжён модификатором <code>sealed</code>
+2) недопустимо обращение к полю <code>a</code> из класса <code>DerivedFromNewClass</code>
 3) в класс <code>NewClass</code> может быть добавлено объявление вложенного типа
-4) в класс <code>DerivedFromNewClass</code> не может быть добавлено объявление 
-вложенного типа
+4) в класс <code>DerivedFromNewClass</code> не может быть добавлено объявление вложенного типа
 5) в реализации метода <code>SetA()</code> требуется модификатор <code>new</code>

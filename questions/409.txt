@@ -1,49 +1,47 @@
-<code>
-    abstract class A 
-    {
-        public static A CreateInstance(string sign)
-        {
-            A res;
-            if ((res = B.CreateInstance(sign)) != null)
-                return res;
-            if ((res = C.CreateInstance(sign)) != null)
-                return res;
-            return null;
-        }
-        
-        public A () {Console.Write("A");}
-    }
-    
-    class B : A{
-        public new static B CreateInstance(string sign)
-        {
-            if (sign == "B")
-                return new B();
-            return null;
-        }
-        public B () {Console.Write("B");}
-    }
-    
-    class C : A{
-        public new static C CreateInstance(string sign)
-        {
-            if (sign == "C")
-                return new C();
-            return null;
-        }
-        
-        public C () {Console.Write("C");}
-    }
-    
-    class Program{
-        public static void Main(string[] args)
-        {
-            A a = A.CreateInstance("B");
-        }
-    }
-</code>
+AB
 
-В результате выполнение программы на экран будет выведено:
+<code>
+abstract class A {
+    public static A CreateInstance(string sign)
+    {
+        A res;
+        if ((res = B.CreateInstance(sign)) != null)
+            return res;
+        if ((res = C.CreateInstance(sign)) != null)
+            return res;
+        return null;
+    }
+    public A () {Console.Write("A");}
+}
+
+class B : A {
+    public new static B CreateInstance(string sign)
+    {
+        if (sign == "B")
+            return new B();
+        return null;
+    }
+    public B () {Console.Write("B");}
+}
+
+class C : A {
+    public new static C CreateInstance(string sign)
+    {
+        if (sign == "C")
+            return new C();
+        return null;
+    }
+    public C () {Console.Write("C");}
+}
+
+class Program {
+    public static void Main(string[] args)
+    {
+        A a = A.CreateInstance("B");
+    }
+}
+</code>
+В результате выполнения программы на экран будет выведено:
 
 Примечание:
 Если возникнет ошибка компиляции, введите: ***

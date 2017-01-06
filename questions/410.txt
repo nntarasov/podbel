@@ -1,7 +1,6 @@
 4;5;
 
-<code>
-public abstract class NewClass {
+<code>public abstract class NewClass {
 
 	protected int a;
 	public Newclass() { }
@@ -15,11 +14,10 @@ public sealed class DerivedFromNewClass : NewClass {
 		if (a != 0) return true;
 			return false;
 	}
-}
-</code>
+}</code>
 Среди перечисленных утверждений относительно этих классов верно, что:
-1) кпасс DerivedFromNewClass не может быть унаследован от NewClass
-2) кпасс DerivedFromNewClass должен быть снабжён модификатором abstract;
+1) класс DerivedFromNewClass не может быть унаследован от NewClass
+2) класс DerivedFromNewClass должен быть снабжён модификатором abstract;
 3) недопустимо в вызывающем коде создание объектов типа DerivedFromNewClass
-4] недопустимо в вызывающем коде создание объектов типа Нечс1а55
+4) недопустимо в вызывающем коде создание объектов типа NewClass
 5) недопустимо создание наследников масса DerivedFromNewClass

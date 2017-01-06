@@ -1,7 +1,7 @@
 4;5;
 
 В классе <code>Program</code> определены методы
-class Program
+<code>class Program
 {
     public static int ChangeSort<T>(T[] array)
     {
@@ -27,12 +27,13 @@ class Program
         Console.Write(ChangeSort<string>(strArr) + " ");
         foreach (string str in strArr) Console.Write(str+" ");
     }
-}
+}</code>
 В результате выполнения метода <code>Main()</code> на экран должно быть выведено :
-<code> 2:1 10 -11 23</code>
-Для получения такого результата, вместо пропусков в заголовок метода <code>ChangeSort<T></code> можно подставить:
+<code>2:1 10 -11 23</code>
+
+Для получения такого результата, вместо пропусков в заголовок метода <code>ChangeSort&lt;T&gt;</code> можно подставить:
 1)<code> where T : struct</code>
 2)<code> where T : struct, IComparable</code>
 3)<code> where T : class</code>
-4)<code> where T : class, IComparable</code>
-5)<code> where T : ICopmarable</code>
+4)<code class='csharp'> where T : class, IComparable</code>
+5)<code> where T : IComparable</code>

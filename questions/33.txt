@@ -1,12 +1,10 @@
 There
 
 В результате выполнения следующего фрагмента программы:
-<code>
-	int x=10;
-	bool flag=x>10;
-	if (flag=false)
-		Console.Write("Here");
-	else
-		Console.Write("There");
-</code>
+<code>int x=10;
+bool flag=x>10;
+if (flag=false)
+    Console.Write("Here");
+else
+    Console.Write("There");</code>
 на экран будет выведено:

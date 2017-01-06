@@ -1,7 +1,7 @@
-1;2;3
+1;2;3;
 
 Верно, что оператор:
-<code>delegate void MyDel (double x, double med);
+<code>delegate void MyDel (double x, double med);</code>
 может быть непосредственно добавлен в код:
 1) структуры
 2) пространства имен

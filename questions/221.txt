@@ -1,6 +1,6 @@
 5;
 
-<b>Выберите верные последовательности ограничений в операторе</b><code>where:</code>
+Выберите верные последовательности ограничений в операторе <code>where</code>:
 1) <code>IComparable, class, new()</code>
 2) <code>class, new, struct</code>
 3) <code>struct, class, new()</code>

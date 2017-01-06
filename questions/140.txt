@@ -8,23 +8,8 @@
     //статический конструктор
 }</code>
 Требуется добавить статический конструкторю Возможным вариантом его реализации явзяется:
-1) <code>static ()
-   {
-       field = 15*field / Math.E;
-   }</code>
-2) <code>static A()
-   {
-       field = con * Math.E;
-   }</code>
-3) <code>static A()
-   {
-       field = 15*field / Math.E;
-   }</code>
-4) <code>static A(double p)
-   {
-       field = 4 * p * Math.E;
-   }</code>
-5) <code>static A()
-   {
-       field = 15*field / Math.E;
-   }</code>
+1) <code>static  () { field = 15*field / Math.E; }</code>
+2) <code>static A() { field = con * Math.E; }</code>
+3) <code>static A() { field = 15*field / Math.E; }</code>
+4) <code>static A(double p) { field = 4 * p * Math.E; }</code>
+5) <code>static A() { field = p * d; }</code>

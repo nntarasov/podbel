@@ -1,6 +1,6 @@
 1;3;
 
-Среди методов класса <code>Array</code> статическимим являются
+Среди методов класса <code>Array</code> статическими являются
 1) <code>Copy()</code>
 2) <code>CopyTo()</code>
 3) <code>IndexOf()</code>

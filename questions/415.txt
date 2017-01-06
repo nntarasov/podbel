@@ -1,8 +1,7 @@
 ﻿***
 
 В программе описаны классы А и В
-<code>
-public class B {
+<code>public class B {
 	int field;
 	protected B() { Console.Write(++field); }
 	public B(int x) { field = x; Console.Write(field); }
@@ -12,14 +11,12 @@ public class A : B {
 	public A(int x) : base(x) {
 		par = new B(); Console.Write(++x);
 	}
-}
+}</code>
 В результате выполнения следующего фрагмента программы:
-<code>
-A a = new A(7);
-</code>
+<code>A a = new A(7);</code>
 В консольное окно будет выведено:
-
-<i>Примечание:
+<i>
+Примечание:
 Если возникнет ошибка компиляции, введите: ***
 Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
 Если возникнет ошибка исполнения или исключение, введите: +++ </i>

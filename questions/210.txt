@@ -1,38 +1,37 @@
 101111
 
-<b>В результате выполнения следующей программы:</b>
-<code>
-delegate void RunHandler(ref byte d);
+В результате выполнения следующей программы:
+<code>delegate void RunHandler(ref byte d);
 
-    class test_cs
+class test_cs
+{
+    static event RunHandler onRun;
+
+    static void Main()
     {
-        static event RunHandler onRun;
-
-        static void Main()
+        onRun += new RunHandler(one);
+        onRun += new RunHandler(two);
+        byte z = 7;
+        while (z++ < 9)
         {
-            onRun += new RunHandler(one);
-            onRun += new RunHandler(two);
-            byte z = 7;
-            while (z++ < 9)
-            {
-                onRun(ref z);
-                Console.Write(z);
-            }
-        }
-
-        static void one(ref byte x)
-        {
-            Console.Write(x += 2);
-        }
-
-        static void two(ref byte y)
-        {
-            Console.Write(y += 1);
+            onRun(ref z);
+            Console.Write(z);
         }
     }
-</code>
-<b>на экран будет выведено:</b>
-<i>Примечание:
+
+    static void one(ref byte x)
+    {
+        Console.Write(x += 2);
+    }
+
+    static void two(ref byte y)
+    {
+        Console.Write(y += 1);
+    }
+}</code>
+на экран будет выведено:
+<i>
+Примечание:
 Если возникнет ошибка компиляции, введите: ***
-Если ошибок и исключений нет, но на экран не выведется ничего, введите: ---
+Если на экран не выведется ничего, введите: ---
 Если возникнет ошибка исполнения или исключение, введите: +++</i>

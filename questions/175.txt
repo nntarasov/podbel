@@ -1,8 +1,7 @@
-﻿215432
+﻿21
 
 В результате выполнения следующего кода
-<code>
-using System;
+<code>using System;
 class A	{
 	int x = 1;
 	protected A() { Console.Write("2" + x++); }
@@ -17,6 +16,5 @@ class Test {
 		B b = new B();
 		b = null;
 	}
-}
-</code>
+}</code>
 на экран будет выведено:

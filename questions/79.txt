@@ -1,10 +1,10 @@
 Good Night!
 
-<i>В результате выполнения следующего фрагмента программы:</i>
-<code> int time = 0;
+В результате выполнения следующего фрагмента программы:
+<code>int time = 0;
 switch (time < 0 ? 0 : time < 4 ? 1 : time < 11 ? 2: time < 15 ? 3:
-	   time < 17 ? 4 : time < 22 ? 5 : time < 24 ? 1 : 0)
-	  {
+        time < 17 ? 4 : time < 22 ? 5 : time < 24 ? 1 : 0)
+{
 		case 1: Console.Write("Good Night!"); break;
 		case 2: Console.Write("Good Morning!"); break;
 		case 3: Console.Write("Good day!"); break;
@@ -12,4 +12,4 @@ switch (time < 0 ? 0 : time < 4 ? 1 : time < 11 ? 2: time < 15 ? 3:
 		case 5: Console.Write("Good Evening!"); break;
 		default: Console.Write("Error!"); break;
 }</code>
-<i> на экран будет выведено:</i>
+на экран будет выведено:

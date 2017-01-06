@@ -1,8 +1,7 @@
-345
+﻿345
 
 В результате выполнения следующей программы:
-<code>
-using System;
+<code>using System;
 class Program {
 	delegate int Del(int n);
 	static int Method(Del f) {
@@ -16,10 +15,8 @@ class Program {
 			Console.Write(Method((j) => { return j + x + i; }));
 		}
 	}
-}
-</code>
+}</code>
 на экран будет выведено:
-
 <i>Примечание:
 Если возникнет ошибка компиляции, введите: ***
 Если ошибок и исключений нет, но на экран не выведится ничего, введите: 000

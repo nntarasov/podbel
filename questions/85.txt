@@ -1,13 +1,11 @@
 1;3;
 
-Укажите строки кода, вставка которых в программу приведет к выводу в консоль числа "75,0"
-
-<code>
-double x = 75.01;
+<code>double x = 75.01;
 string str;
-// TODO вставить код форматирования строки
-Console.WriteLine(str
+//TODO: вставить код форматирования строки
+Console.WriteLine(str);</code>
 
+Укажите строки кода, вставка которых в программу приведет к выводу в консоль числа "75,0":
 1) <code>str = String.Format("{0:f1}", x);</code>
 2) <code>str = Convert.ToString(x - 0.01);</code>
 3) <code>str = x.ToString("0.0");</code>

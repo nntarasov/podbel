@@ -1,7 +1,7 @@
 1;3;5;
 
 В проекте WindowsFormsApplication разработана форма:
-<img>
+<img src="questions/143.PNG" style="width: 500px;">
 среди элементов управления присутствуют:
 1) Button
 2) CheckBox
