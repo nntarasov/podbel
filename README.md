@@ -1,4 +1,4 @@
-[![example](https://pp.vk.me/c639516/v639516485/1edb/kAEXw01YMdk.jpg)]()
+[![example](http://podbel.ru/files/kAEXw01YMdk.jpg)]()
 [![example](https://img.shields.io/badge/status-online-brightgreen.svg)]()
 [![example](https://img.shields.io/badge/questions-496-green.svg)]()
 # База знаний для подготовки к тесту #
