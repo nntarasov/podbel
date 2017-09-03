@@ -1,7 +1,10 @@
 [![example](http://podbel.ru/files/kAEXw01YMdk.jpg)]()
-[![Status - Offline](http://podbel.ru/files/status-online-brightgreen.svg)]()
 [![example](https://img.shields.io/badge/questions-496-green.svg)]()
 # База знаний для подготовки к тесту #
+
+### Notice ###
+_Этот репозиторий автоматически синхронизирован с сайтом. Не стесняйтесь форкаться и делать пулл-реквесты_
+
 ### Get started ###
 Директория ```/questions/``` содержит каталог вопросов
 
